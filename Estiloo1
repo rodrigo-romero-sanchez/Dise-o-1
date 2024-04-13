@@ -62,3 +62,31 @@
                                 <option value="option2">Option 2</option>
                                 <option value="option3">Option 3</option>
                             </select>
+</div>
+                        <div class="input-field">
+                            <label for="occupation">Occupation</label>
+                            <select id="occupation">
+                                <option value="option1">Option 1</option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label for="weapon">Weapon of Choice</label>
+                            <input type="text" id="weapon" required />
+                        </div>
+                        <div class="input-field">
+                            <label for="biography">biography</label>
+                            <textarea
+                            id="comments"
+                            placeholder="Enter your comments"
+                            required
+                            ></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
